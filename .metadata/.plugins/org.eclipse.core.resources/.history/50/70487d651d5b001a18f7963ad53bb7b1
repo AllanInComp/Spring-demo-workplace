@@ -1,0 +1,5 @@
+package com.allanudemy.jackson_databind_json_demo.controller;
+
+public class StudentRestController {
+
+}

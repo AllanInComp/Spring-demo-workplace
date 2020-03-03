@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MyLoggerConfig.java&apos; to &apos;spring-demo-aop/src/com.allanudemy.aopdemo&apos;&#x0D;&#x0A;- Original project: &apos;spring-demo-one&apos;&#x0D;&#x0A;- Destination element: &apos;spring-demo-aop/src/com.allanudemy.aopdemo&apos;&#x0D;&#x0A;- Original element: &apos;com.allanudemy.springdemoxml.MyLoggerConfig.java&apos;" description="Copy compilation unit" destination="=spring-demo-aop/src&lt;com.allanudemy.aopdemo" element1="/src&lt;com.allanudemy.springdemoxml{MyLoggerConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1579658389347" units="1" version="1.0"/>
+</session>

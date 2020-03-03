@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Shows how to inject method calls at the start of the instantiation and the end for a bean object, using init-method="*method name in class" and destroy-method="//" -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	
+	<!-- load properties file: sport.properties -->
+	<context:property-placeholder location="classpath:sport.properties"/>
+	
+	<bean id="myLoggerConfig" class="com.allanudemy.springdemoxml.MyLoggerConfig" init-method="initLogger">
+    	<property name="rootLoggerLevel" value="FINE" />
+    	<property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+	<!-- define dependency -->
+	<bean id="myFortune" class="com.allanudemy.springdemoxml.HappyFortuneService"/>
+	<!-- if the scope of a bean is set to prototype, Spring doesn't call the destroy method at the end -->
+	<bean id= "myCoach" class="com.allanudemy.springdemoxml.TrackCoach" scope = "prototype"
+	init-method="doMyStarupStuff"
+	destroy-method="doMyEndStuff">	
+		<!-- Constructor injection -->
+		<constructor-arg ref="myFortune"/>
+	</bean>
+	
+</beans>

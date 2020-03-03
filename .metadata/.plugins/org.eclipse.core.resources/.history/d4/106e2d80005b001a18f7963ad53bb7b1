@@ -1,0 +1,5 @@
+package com.allanudemy.springrest.config;
+
+public class MySpringMvcDispatcherServletInitializer extends Abs{
+	
+}

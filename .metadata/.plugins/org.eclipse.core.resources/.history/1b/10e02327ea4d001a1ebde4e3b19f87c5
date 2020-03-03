@@ -1,0 +1,29 @@
+package com.allanudemy.jackson_databind_json_demo.demo;
+
+import java.io.File;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        
+        try {
+        	ObjectMapper objm = new ObjectMapper();
+        	
+        	Student myStudent =objm.readValue(new File("data/sample-lite.json"), Student.class);
+        	System.out.println(myStudent);
+        	
+        }catch(Exception e) {
+        	e.printStackTrace();
+        }
+        
+        
+    }
+}

@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [08/Feb/2020:00:08:02 -0500] "GET /spring-security-demo-jdbc-plaintext HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2020:00:08:02 -0500] "GET /spring-security-demo-jdbc-plaintext/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2020:00:08:02 -0500] "GET /spring-security-demo-jdbc-plaintext/showMyLoginPage HTTP/1.1" 200 813
+0:0:0:0:0:0:0:1 - - [08/Feb/2020:00:08:02 -0500] "GET /favicon.ico HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [08/Feb/2020:00:08:06 -0500] "POST /spring-security-demo-jdbc-plaintext/authenticateUsers HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2020:00:08:06 -0500] "GET /spring-security-demo-jdbc-plaintext/ HTTP/1.1" 200 633

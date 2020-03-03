@@ -1,0 +1,5 @@
+package com.allanudemy.springrest.rest;
+
+public class StudentRestController {
+
+}

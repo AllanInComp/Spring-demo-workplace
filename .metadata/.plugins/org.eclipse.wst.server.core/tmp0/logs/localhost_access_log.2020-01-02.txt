@@ -1,0 +1,4 @@
+127.0.0.1 - - [02/Jan/2020:12:45:49 -0500] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Jan/2020:12:45:50 -0500] "GET /spring-mvc-demo/ HTTP/1.1" 200 264
+0:0:0:0:0:0:0:1 - - [02/Jan/2020:12:45:51 -0500] "GET /spring-mvc-demo/customer/showForm HTTP/1.1" 200 1203
+0:0:0:0:0:0:0:1 - - [02/Jan/2020:12:46:08 -0500] "POST /spring-mvc-demo/customer/processForm HTTP/1.1" 200 1301

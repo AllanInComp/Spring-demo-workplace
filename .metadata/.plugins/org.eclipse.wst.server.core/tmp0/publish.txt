@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Sat Feb 29 13:18:55 EST 2020
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Allan\ Yu\\.m2\\repository\\org\\springframework\\spring-web\\5.2.3.RELEASE\\spring-web-5.2.3.RELEASE.jar=WEB-INF/lib/spring-web-5.2.3.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Allan\ Yu\\Documents\\springsource\\spring-framework-5.2.2.RELEASE\\libs\\spring-web-5.2.2.RELEASE.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Allan\ Yu\\Documents\\springsource\\spring-framework-5.2.2.RELEASE\\libs\\spring-web-5.2.2.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Allan\ Yu\\.m2\\repository\\org\\springframework\\spring-web\\5.2.3.RELEASE\\spring-web-5.2.3.RELEASE.jar=WEB-INF/lib/spring-web-5.2.3.RELEASE.jar

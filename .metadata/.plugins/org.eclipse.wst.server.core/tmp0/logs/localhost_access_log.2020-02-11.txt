@@ -1,0 +1,13 @@
+127.0.0.1 - - [11/Feb/2020:19:57:16 -0500] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:19:57:17 -0500] "GET /spring-security-demo/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:19:57:17 -0500] "GET /spring-security-demo/showMyLoginPage HTTP/1.1" 200 798
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:19:57:22 -0500] "POST /spring-security-demo/authenticateUsers HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:19:57:23 -0500] "GET /spring-security-demo/ HTTP/1.1" 200 618
+127.0.0.1 - - [11/Feb/2020:20:01:35 -0500] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:20:01:35 -0500] "GET /spring-security-demo/ HTTP/1.1" 200 618
+127.0.0.1 - - [11/Feb/2020:20:03:42 -0500] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:20:03:42 -0500] "GET /spring-security-demo/ HTTP/1.1" 200 618
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:20:03:44 -0500] "POST /spring-security-demo/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:20:03:44 -0500] "GET /spring-security-demo/showMyLoginPage?logout HTTP/1.1" 200 871
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:20:03:55 -0500] "POST /spring-security-demo/authenticateUsers HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/Feb/2020:20:03:55 -0500] "GET /spring-security-demo/ HTTP/1.1" 200 618
